@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodySafe", "BodySafe\BodySafe.csproj", "{16CE9F36-574C-4481-857D-D7EA0C1D0201}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16CE9F36-574C-4481-857D-D7EA0C1D0201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16CE9F36-574C-4481-857D-D7EA0C1D0201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16CE9F36-574C-4481-857D-D7EA0C1D0201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16CE9F36-574C-4481-857D-D7EA0C1D0201}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0922A48-57BA-416B-B63D-F21FACDF7117}
+	EndGlobalSection
+EndGlobal
