@@ -12,19 +12,28 @@ namespace BodySafe.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
-        public static void Ret()
-        {
-         var data =  X.Deserialize();
-          
-        }
+        //public static void Ret()
+        //{
+        // var data =  LobbyFactory.Deserialize();
+
+        //}
+
+        // GET api/ROWSET
+        //[HttpGet]
+        //public ROWSET Get()
+        //{
+        // var lobbyFeed= LobbyFactory.Deserialize();
+        //    return lobbyFeed;
+        //}
 
         // GET api/values
+
         [HttpGet]
-        public ROWSET Get()
+        public string[] Get()
         {
-         var a= X.Deserialize();
-            return a;
-           // return new string[] { "value1", "value2" };
+            LobbyFactory.Deserialize();
+            var lobbyFeed = new[] { "Its okay" };
+            return lobbyFeed;
         }
 
         // GET api/values/5
@@ -38,6 +47,7 @@ namespace BodySafe.Controllers
         [HttpPost]
         public void Post([FromBody]string value)
         {
+
         }
 
         // PUT api/values/5

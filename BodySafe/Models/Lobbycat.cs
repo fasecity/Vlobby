@@ -7,12 +7,17 @@ using System;
 using System.Xml.Serialization;
 using System.Collections.Generic;
 using System.IO;
+using Microsoft.EntityFrameworkCore;
+using BodySafe;
 
 namespace ViewModels.LobbyCat
 {
     [XmlRoot(ElementName = "BusinessAddress")]
     public class BusinessAddress
     {
+        [XmlIgnore]
+        public int Id { get; set; }
+
         [XmlElement(ElementName = "AddressLine1")]
         public string AddressLine1 { get; set; }
         [XmlElement(ElementName = "AddressLine2")]
@@ -32,6 +37,9 @@ namespace ViewModels.LobbyCat
     [XmlRoot(ElementName = "Registrant")]
     public class Registrant
     {
+        [XmlIgnore]
+        public int Id { get; set; }
+
         [XmlElement(ElementName = "RegistrationNUmber")]
         public string RegistrationNUmber { get; set; }
         [XmlElement(ElementName = "RegistrationNUmberWithSoNum")]
@@ -69,6 +77,9 @@ namespace ViewModels.LobbyCat
     [XmlRoot(ElementName = "BENEFICIARY")]
     public class BENEFICIARY
     {
+        [XmlIgnore]
+        public int Id { get; set; }
+
         [XmlElement(ElementName = "Type")]
         public string Type { get; set; }
         [XmlElement(ElementName = "Name")]
@@ -86,6 +97,9 @@ namespace ViewModels.LobbyCat
     [XmlRoot(ElementName = "Beneficiaries")]
     public class Beneficiaries
     {
+        [XmlIgnore]
+        public int Id { get; set; }
+
         [XmlElement(ElementName = "BENEFICIARY")]
         public List<BENEFICIARY> BENEFICIARY { get; set; }
     }
@@ -93,6 +107,9 @@ namespace ViewModels.LobbyCat
     [XmlRoot(ElementName = "Firm")]
     public class Firm
     {
+        [XmlIgnore]
+        public int Id { get; set; }
+
         [XmlElement(ElementName = "Type")]
         public string Type { get; set; }
         [XmlElement(ElementName = "Name")]
@@ -122,13 +139,19 @@ namespace ViewModels.LobbyCat
     [XmlRoot(ElementName = "Firms")]
     public class Firms
     {
+        [XmlIgnore]
+        public int Id { get; set; }
+
         [XmlElement(ElementName = "Firm")]
         public List<Firm> Firm { get; set; }
     }
 
     [XmlRoot(ElementName = "ROW")]
     public class ROW
-    {
+    { 
+        [XmlIgnore]
+        public int Id { get; set; }
+
         [XmlElement(ElementName = "SMNumber")]
         public string SMNumber { get; set; }
         [XmlElement(ElementName = "Status")]
@@ -166,8 +189,13 @@ namespace ViewModels.LobbyCat
 
     
 
-    public class X
+    public class LobbyFactory
     {
+        //--------------------------------------db static ----------------------------------------
+        public static DbContextOptions<ApiContext> options = new DbContextOptions<ApiContext>();
+        public static ApiContext db = new ApiContext(Options);
+        public static DbContextOptions<ApiContext> Options { get => options; set => options = value; }
+        //------------------------------------------------------------------------------------------
         public static ROWSET Deserialize()
         {
            
@@ -181,14 +209,25 @@ namespace ViewModels.LobbyCat
                 lobbyist = (ROWSET)serializer.Deserialize(reader);
                 reader.Close();
 
-                //I like usings--https://stackoverflow.com/questions/364253/how-to-deserialize-xml-document
-                //StreamReader reader = new StreamReader(path);
-                //lobbyist = (ROWSET)serializer.Deserialize(reader);
-                //reader.Close();
+               
             }
 
-           object ll =  lobbyist.ROW.Clone();
-           return lobbyist;
+            for (int items = 0; items < lobbyist.ROW.Length; items++)
+            {
+                //saves the row -- minitest
+               // var rowsave = lobbyist.ROW[items++];
+
+                //saves one at a time--issue
+                db.LobbyActivity.Add(lobbyist.ROW[items++]);
+                db.SaveChangesAsync();
+
+            }
+            
+
+            
+            
+
+            return lobbyist;
 
         }
 

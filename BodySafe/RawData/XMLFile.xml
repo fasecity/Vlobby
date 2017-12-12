@@ -1,129 +1,108 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ROWSET>
 <ROW>
-  <SMNumber>SM23321</SMNumber>
-  <Status>Active</Status>
-  <Type>In-house</Type>
-  <SubjectMatter>Affordable Housing;Attractions / Tourism;By-law / Regulation</SubjectMatter>
-  <Particulars>Fair, safe and respectful rules for home-sharing.</Particulars>
-  <InitialApprovalDate>2016-07-07</InitialApprovalDate>
-  <EffectiveDate>2017-12-08</EffectiveDate>
-  <ProposedStartDate>2016-07-07</ProposedStartDate>
-  <ProposedEndDate>2017-12-31</ProposedEndDate>
-  <Registrant>
-    <RegistrationNUmber>29171S</RegistrationNUmber>
-    <RegistrationNUmberWithSoNum>29171S-1</RegistrationNUmberWithSoNum>
+    <SMNumber>SM25412</SMNumber>
     <Status>Active</Status>
-    <EffectiveDate>2017-01-18</EffectiveDate>
-    <Type>In-house</Type>
-    <Prefix />
-    <FirstName>Lis</FirstName>
-    <MiddleInitials />
-    <LastName>Pimentel</LastName>
-    <Suffix />
-    <PositionTitle>Chair, Fairbnb Coalition</PositionTitle>
-    <PreviousPublicOfficeHolder>no</PreviousPublicOfficeHolder>
-    <PreviousPublicOfficeHoldPosition />
-    <PreviousPublicOfficePositionProgramName />
-    <PreviousPublicOfficeHoldLastDate />
-    <BusinessAddress>
-      <AddressLine1>15 Gervais Drive</AddressLine1>
-      <AddressLine2>3rd Floor</AddressLine2>
-      <City>Toronto</City>
-      <Province>ON</Province>
-      <Country>Canada</Country>
-      <PostalCode>M5C 1Y8</PostalCode>
-      <Phone>416-384-0983</Phone>
-    </BusinessAddress>
-  </Registrant>
-  <Firms>
-    <Firm>
-      <Type>In-house</Type>
-      <Name>Fairbnb.ca Coalition</Name>
-      <TradeName />
-      <FiscalStart>2017-01-01</FiscalStart>
-      <FiscalEnd>2017-12-31</FiscalEnd>
-      <Description>The Fairbnb Coalition includes residents, businesses, labour organizations, housing advocates, legal bed-and-breakfast operators, hoteliers, and many others. We believe Canadian cities must modernize laws and enforcement so that there are fair, consistent</Description>
-      <BusinessType>Partnership</BusinessType>
+    <Type>Consultant</Type>
+    <SubjectMatter>Technology;Transit / TTC;Transportation - Metrolinx</SubjectMatter>
+    <Particulars>Implementation of wireless communications/WIFI/cellular services in TTC stations, platforms, tunnels, and trains.</Particulars>
+    <InitialApprovalDate>2017-12-08</InitialApprovalDate>
+    <EffectiveDate>2017-12-08</EffectiveDate>
+    <ProposedStartDate>2017-12-08</ProposedStartDate>
+    <ProposedEndDate>2018-12-07</ProposedEndDate>
+    <Registrant>
+      <RegistrationNUmber>12701C</RegistrationNUmber>
+      <RegistrationNUmberWithSoNum>12701C</RegistrationNUmberWithSoNum>
+      <Status>Active</Status>
+      <EffectiveDate>2008-11-24</EffectiveDate>
+      <Type>Consultant</Type>
+      <Prefix />
+      <FirstName>Jeff</FirstName>
+      <MiddleInitials />
+      <LastName>Bangs</LastName>
+      <Suffix />
+      <PositionTitle>Partner</PositionTitle>
+      <PreviousPublicOfficeHolder>No</PreviousPublicOfficeHolder>
+      <PreviousPublicOfficeHoldPosition />
+      <PreviousPublicOfficePositionProgramName />
+      <PreviousPublicOfficeHoldLastDate />
       <BusinessAddress>
-        <AddressLine1>15 Gervais Drive</AddressLine1>
-        <AddressLine2>3rd Floor</AddressLine2>
+        <AddressLine1>1 Dundas Street West</AddressLine1>
+        <AddressLine2>Suite 2500</AddressLine2>
         <City>Toronto</City>
-        <Province>ON</Province>
+        <Province>Ontario</Province>
         <Country>Canada</Country>
-        <PostalCode>M5C 1Y8</PostalCode>
+        <PostalCode>M5G1Z3</PostalCode>
+        <Phone>416-979-4617</Phone>
       </BusinessAddress>
-    </Firm>
-    <Firm>
-      <Type>Other</Type>
-      <Name>UNITE HERE Local 75</Name>
-      <TradeName />
-      <FiscalStart />
-      <FiscalEnd />
-      <Description />
-      <BusinessType />
-      <BusinessAddress>
-        <AddressLine1>15 Gervais drive</AddressLine1>
-        <AddressLine2>3rd Floor</AddressLine2>
-        <City>Toronto</City>
-        <Province>ON</Province>
-        <Country>Canada</Country>
-        <PostalCode>M5C 1Y8</PostalCode>
-      </BusinessAddress>
-    </Firm>
-    <Firm>
-      <Type>Other</Type>
-      <Name>Metro Federation of Tenants' Associations</Name>
-      <TradeName />
-      <FiscalStart />
-      <FiscalEnd />
-      <Description />
-      <BusinessType />
-      <BusinessAddress>
-        <AddressLine1>PO Box 73102 Wood St. PO</AddressLine1>
-        <AddressLine2 />
-        <City>Toronto</City>
-        <Province>Toronto</Province>
-        <Country>ON</Country>
-        <PostalCode>M4Y 2W5</PostalCode>
-      </BusinessAddress>
-    </Firm>
-    <Firm>
-      <Type>Other</Type>
-      <Name>Condo Owners Association</Name>
-      <TradeName />
-      <FiscalStart />
-      <FiscalEnd />
-      <Description />
-      <BusinessType />
-      <BusinessAddress>
-        <AddressLine1>297 Lakeshore Road East</AddressLine1>
-        <AddressLine2 />
-        <City>Mississauga</City>
-        <Province>ON</Province>
-        <Country>Canada</Country>
-        <PostalCode>L5G 1H3</PostalCode>
-      </BusinessAddress>
-    </Firm>
-    <Firm>
-      <Type>Other</Type>
-      <Name>Toronto Acorn</Name>
-      <TradeName />
-      <FiscalStart />
-      <FiscalEnd />
-      <Description />
-      <BusinessType />
-      <BusinessAddress>
-        <AddressLine1>1324 Danforth Avenue</AddressLine1>
-        <AddressLine2>Suite 2</AddressLine2>
-        <City>Toronto</City>
-        <Province>ON</Province>
-        <Country>Canada</Country>
-        <PostalCode>M4J 1M9</PostalCode>
-      </BusinessAddress>
-    </Firm>
-  </Firms>
-</ROW>
+    </Registrant>
+    <Beneficiaries>
+      <BENEFICIARY>
+        <Type>Client</Type>
+        <Name>BAI Canada</Name>
+        <TradeName>BAI Communications</TradeName>
+        <FiscalStart>2018-01-01</FiscalStart>
+        <FiscalEnd>2018-12-31</FiscalEnd>
+        <BusinessAddress>
+          <AddressLine1>33 Bloor Street East, Suite 301</AddressLine1>
+          <AddressLine2 />
+          <City>Toronto</City>
+          <Province>ON</Province>
+          <Country>Canada</Country>
+          <PostalCode>M4W 3H1</PostalCode>
+        </BusinessAddress>
+      </BENEFICIARY>
+      <BENEFICIARY>
+        <Type>Subsidiary company</Type>
+        <Name>Transit Wireless, A BAI Communications Company</Name>
+        <TradeName />
+        <FiscalStart />
+        <FiscalEnd />
+        <BusinessAddress>
+          <AddressLine1>1350 Broadway, 3rd Floor</AddressLine1>
+          <AddressLine2 />
+          <City>New York</City>
+          <Province>NY</Province>
+          <Country>USA</Country>
+          <PostalCode>10018</PostalCode>
+        </BusinessAddress>
+      </BENEFICIARY>
+      <BENEFICIARY>
+        <Type>Parent company</Type>
+        <Name>BAI Communications</Name>
+        <TradeName />
+        <FiscalStart />
+        <FiscalEnd />
+        <BusinessAddress>
+          <AddressLine1>BAI Communications Head</AddressLine1>
+          <AddressLine2 />
+          <City>Chatswood</City>
+          <Province>NSW</Province>
+          <Country>Australia</Country>
+          <PostalCode>2067</PostalCode>
+        </BusinessAddress>
+      </BENEFICIARY>
+    </Beneficiaries>
+    <Firms>
+      <Firm>
+        <Type>Consultant</Type>
+        <Name>Pathway Group</Name>
+        <TradeName />
+        <FiscalStart />
+        <FiscalEnd />
+        <Description />
+        <BusinessType />
+        <BusinessAddress>
+          <AddressLine1>1 Dundas Street West</AddressLine1>
+          <AddressLine2>Suite 2500</AddressLine2>
+          <City>Toronto</City>
+          <Province>Ontario</Province>
+          <Country>Canada</Country>
+          <PostalCode>M5G1Z3</PostalCode>
+        </BusinessAddress>
+      </Firm>
+    </Firms>
+  </ROW>
 <ROW>
   <SMNumber>SM23732</SMNumber>
   <Status>Active</Status>

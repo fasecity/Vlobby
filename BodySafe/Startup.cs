@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
@@ -23,6 +24,9 @@ namespace BodySafe
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //db service 
+            services.AddDbContext<ApiContext>(opt => opt.UseSqlServer(ApiContext.CONNSTRING));
+
             //add cors service
             services.AddCors(options => options.AddPolicy("Cors",
                 builder => {
