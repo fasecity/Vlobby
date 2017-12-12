@@ -2,18 +2,29 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BodySafe;
+
 using Microsoft.AspNetCore.Mvc;
+using ViewModels.LobbyCat;
 
 namespace BodySafe.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+        public static void Ret()
+        {
+         var data =  X.Deserialize();
+          
+        }
+
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public ROWSET Get()
         {
-            return new string[] { "value1", "value2" };
+         var a= X.Deserialize();
+            return a;
+           // return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5
