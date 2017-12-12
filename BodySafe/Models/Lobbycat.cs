@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.IO;
 using Microsoft.EntityFrameworkCore;
 using BodySafe;
+using System.Threading.Tasks;
 
 namespace ViewModels.LobbyCat
 {
@@ -196,7 +197,8 @@ namespace ViewModels.LobbyCat
         public static ApiContext db = new ApiContext(Options);
         public static DbContextOptions<ApiContext> Options { get => options; set => options = value; }
         //------------------------------------------------------------------------------------------
-        public static ROWSET Deserialize()
+
+        public static async Task<ROWSET> Deserialize()      
         {
            
             ROWSET lobbyist = null;
@@ -207,27 +209,19 @@ namespace ViewModels.LobbyCat
             using (var reader = new StreamReader(path))
             {
                 lobbyist = (ROWSET)serializer.Deserialize(reader);
-                reader.Close();
-
-               
+                reader.Close();               
             }
-
+             
             for (int items = 0; items < lobbyist.ROW.Length; items++)
             {
-                //saves the row -- minitest
-               // var rowsave = lobbyist.ROW[items++];
-
-                //saves one at a time--issue
-                db.LobbyActivity.Add(lobbyist.ROW[items++]);
-                db.SaveChangesAsync();
-
+                              
+               db.LobbyActivity.AddRange(lobbyist.ROW[items]);
+                          
             }
-            
 
-            
-            
+            await  db.SaveChangesAsync();
 
-            return lobbyist;
+            return  lobbyist;
 
         }
 

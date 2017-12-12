@@ -31,7 +31,7 @@ namespace BodySafe.Controllers
         [HttpGet]
         public string[] Get()
         {
-            LobbyFactory.Deserialize();
+          var x =  LobbyFactory.Deserialize();
             var lobbyFeed = new[] { "Its okay" };
             return lobbyFeed;
         }

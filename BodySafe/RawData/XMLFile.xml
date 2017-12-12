@@ -1,194 +1,957 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ROWSET>
-<ROW>
-    <SMNumber>SM25412</SMNumber>
+  <ROW>
+    <SMNumber>SM24685</SMNumber>
     <Status>Active</Status>
     <Type>Consultant</Type>
-    <SubjectMatter>Technology;Transit / TTC;Transportation - Metrolinx</SubjectMatter>
-    <Particulars>Implementation of wireless communications/WIFI/cellular services in TTC stations, platforms, tunnels, and trains.</Particulars>
-    <InitialApprovalDate>2017-12-08</InitialApprovalDate>
+    <SubjectMatter>Planning and Development Application, Zoning By-law</SubjectMatter>
+    <Particulars>Potential development proposal for Bloor Street United Church @ 300 Bloor Street West, Toronto.</Particulars>
+    <InitialApprovalDate>2017-06-09</InitialApprovalDate>
     <EffectiveDate>2017-12-08</EffectiveDate>
-    <ProposedStartDate>2017-12-08</ProposedStartDate>
-    <ProposedEndDate>2018-12-07</ProposedEndDate>
+    <ProposedStartDate>2017-06-08</ProposedStartDate>
+    <ProposedEndDate>2018-06-08</ProposedEndDate>
     <Registrant>
-      <RegistrationNUmber>12701C</RegistrationNUmber>
-      <RegistrationNUmberWithSoNum>12701C</RegistrationNUmberWithSoNum>
+      <RegistrationNUmber>28179C</RegistrationNUmber>
+      <RegistrationNUmberWithSoNum>28179C</RegistrationNUmberWithSoNum>
       <Status>Active</Status>
-      <EffectiveDate>2008-11-24</EffectiveDate>
+      <EffectiveDate>2016-02-23</EffectiveDate>
       <Type>Consultant</Type>
-      <Prefix />
-      <FirstName>Jeff</FirstName>
+      <Prefix>Mr.</Prefix>
+      <FirstName>Stephen</FirstName>
       <MiddleInitials />
-      <LastName>Bangs</LastName>
+      <LastName>Adler</LastName>
       <Suffix />
-      <PositionTitle>Partner</PositionTitle>
+      <PositionTitle>Manager</PositionTitle>
       <PreviousPublicOfficeHolder>No</PreviousPublicOfficeHolder>
       <PreviousPublicOfficeHoldPosition />
       <PreviousPublicOfficePositionProgramName />
       <PreviousPublicOfficeHoldLastDate />
       <BusinessAddress>
-        <AddressLine1>1 Dundas Street West</AddressLine1>
-        <AddressLine2>Suite 2500</AddressLine2>
+        <AddressLine1>145 King Street East</AddressLine1>
+        <AddressLine2>2nd Floor</AddressLine2>
         <City>Toronto</City>
         <Province>Ontario</Province>
         <Country>Canada</Country>
-        <PostalCode>M5G1Z3</PostalCode>
-        <Phone>416-979-4617</Phone>
+        <PostalCode>M5C 2Y7</PostalCode>
+        <Phone>416-864-7112</Phone>
       </BusinessAddress>
     </Registrant>
+    <Communications>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-06-12</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Sam Carter-Shamai</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-06-14</CommunicationDate>
+        <CommunicationGroupId>66706</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Sam Carter-Shamai</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-06-13</CommunicationDate>
+        <CommunicationGroupId>66706</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Sam Carter-Shamai</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-06-12</CommunicationDate>
+        <CommunicationGroupId>66706</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-12-07</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-11-21</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>Telephone;E-mail</CommunicationMethod>
+        <CommunicationDate>2017-11-20</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-11-19</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-10-30</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-10-25</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-10-02</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>Telephone</CommunicationMethod>
+        <CommunicationDate>2017-09-26</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-09-15</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-09-14</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-08-31</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-08-30</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>MeetingsArranged;E-mail</CommunicationMethod>
+        <CommunicationDate>2017-08-23</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>MeetingsArranged;E-mail</CommunicationMethod>
+        <CommunicationDate>2017-08-18</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>MeetingsArranged;E-mail</CommunicationMethod>
+        <CommunicationDate>2017-08-16</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>Telephone</CommunicationMethod>
+        <CommunicationDate>2017-08-01</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-07-31</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-06-19</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-06-14</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Office of Councillor Joe Cressy</POH_Office>
+        <POH_Type>Staff of Member of Council</POH_Type>
+        <POH_Position />
+        <POH_Name>Colin Burns</POH_Name>
+        <CommunicationMethod>E-mail</CommunicationMethod>
+        <CommunicationDate>2017-06-13</CommunicationDate>
+        <CommunicationGroupId>66696</CommunicationGroupId>
+        <LobbyistNumber />
+        <LobbyistType />
+        <LobbyistPrefix />
+        <LobbyistFirstName />
+        <LobbyistMiddleInitials />
+        <LobbyistLastName />
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle />
+        <PreviousPublicOfficeHolder />
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1 />
+          <AddressLine2 />
+          <City />
+          <Province />
+          <Country />
+          <PostalCode />
+          <Phone />
+        </LobbyistBusinessAddress>
+      </Communication>
+    </Communications>
     <Beneficiaries>
       <BENEFICIARY>
         <Type>Client</Type>
-        <Name>BAI Canada</Name>
-        <TradeName>BAI Communications</TradeName>
-        <FiscalStart>2018-01-01</FiscalStart>
-        <FiscalEnd>2018-12-31</FiscalEnd>
+        <Name>Northrop Development Incorporated</Name>
+        <TradeName />
+        <FiscalStart />
+        <FiscalEnd />
         <BusinessAddress>
-          <AddressLine1>33 Bloor Street East, Suite 301</AddressLine1>
+          <AddressLine1>400 Brunel Road</AddressLine1>
+          <AddressLine2 />
+          <City>Mississauga</City>
+          <Province>Ontario</Province>
+          <Country>Canada</Country>
+          <PostalCode>L4Z 2C2</PostalCode>
+        </BusinessAddress>
+      </BENEFICIARY>
+      <BENEFICIARY>
+        <Type>Other</Type>
+        <Name>Bloor Street United Church</Name>
+        <TradeName>BSUC</TradeName>
+        <FiscalStart />
+        <FiscalEnd />
+        <BusinessAddress>
+          <AddressLine1>300 Bloor Street W</AddressLine1>
           <AddressLine2 />
           <City>Toronto</City>
-          <Province>ON</Province>
+          <Province>Ontario</Province>
           <Country>Canada</Country>
-          <PostalCode>M4W 3H1</PostalCode>
-        </BusinessAddress>
-      </BENEFICIARY>
-      <BENEFICIARY>
-        <Type>Subsidiary company</Type>
-        <Name>Transit Wireless, A BAI Communications Company</Name>
-        <TradeName />
-        <FiscalStart />
-        <FiscalEnd />
-        <BusinessAddress>
-          <AddressLine1>1350 Broadway, 3rd Floor</AddressLine1>
-          <AddressLine2 />
-          <City>New York</City>
-          <Province>NY</Province>
-          <Country>USA</Country>
-          <PostalCode>10018</PostalCode>
-        </BusinessAddress>
-      </BENEFICIARY>
-      <BENEFICIARY>
-        <Type>Parent company</Type>
-        <Name>BAI Communications</Name>
-        <TradeName />
-        <FiscalStart />
-        <FiscalEnd />
-        <BusinessAddress>
-          <AddressLine1>BAI Communications Head</AddressLine1>
-          <AddressLine2 />
-          <City>Chatswood</City>
-          <Province>NSW</Province>
-          <Country>Australia</Country>
-          <PostalCode>2067</PostalCode>
+          <PostalCode>M9B 6B7</PostalCode>
         </BusinessAddress>
       </BENEFICIARY>
     </Beneficiaries>
     <Firms>
       <Firm>
         <Type>Consultant</Type>
-        <Name>Pathway Group</Name>
+        <Name>StrategyCorp Inc.</Name>
         <TradeName />
         <FiscalStart />
         <FiscalEnd />
         <Description />
         <BusinessType />
         <BusinessAddress>
-          <AddressLine1>1 Dundas Street West</AddressLine1>
-          <AddressLine2>Suite 2500</AddressLine2>
+          <AddressLine1>145 King Street East</AddressLine1>
+          <AddressLine2>2nd Floor</AddressLine2>
           <City>Toronto</City>
           <Province>Ontario</Province>
           <Country>Canada</Country>
-          <PostalCode>M5G1Z3</PostalCode>
+          <PostalCode>M5C 2Y7</PostalCode>
         </BusinessAddress>
       </Firm>
     </Firms>
   </ROW>
-<ROW>
-  <SMNumber>SM23732</SMNumber>
-  <Status>Active</Status>
-  <Type>Consultant</Type>
-  <SubjectMatter>Planning and Development, Rental Housing Demolition or Conversion;Planning and Development Application, Site Plan;Planning and Development Application, Minor Variance</SubjectMatter>
-  <Particulars>Concerning an application to develop the lot known as 465 &amp; 467 Vaughan Rd into seven townhouse units.</Particulars>
-  <InitialApprovalDate>2016-11-18</InitialApprovalDate>
-  <EffectiveDate>2017-12-08</EffectiveDate>
-  <ProposedStartDate>2016-11-18</ProposedStartDate>
-  <ProposedEndDate>2017-12-31</ProposedEndDate>
-  <Registrant>
-    <RegistrationNUmber>14287C</RegistrationNUmber>
-    <RegistrationNUmberWithSoNum>14287C</RegistrationNUmberWithSoNum>
+  <ROW>
+    <SMNumber>SM25138</SMNumber>
     <Status>Active</Status>
-    <EffectiveDate>2015-11-26</EffectiveDate>
-    <Type>Consultant</Type>
-    <Prefix>Mr.</Prefix>
-    <FirstName>Sean</FirstName>
-    <MiddleInitials />
-    <LastName>Hill</LastName>
-    <Suffix />
-    <PositionTitle>Principal</PositionTitle>
-    <PreviousPublicOfficeHolder>No</PreviousPublicOfficeHolder>
-    <PreviousPublicOfficeHoldPosition />
-    <PreviousPublicOfficePositionProgramName />
-    <PreviousPublicOfficeHoldLastDate />
-    <BusinessAddress>
-      <AddressLine1>650 Woodbine Ave</AddressLine1>
-      <AddressLine2>Suite 7</AddressLine2>
-      <City>Toronto</City>
-      <Province>Ontario</Province>
-      <Country>Canada</Country>
-      <PostalCode>M4E 2J1</PostalCode>
-      <Phone>647-530-4686</Phone>
-    </BusinessAddress>
-  </Registrant>
-  <Beneficiaries>
-    <BENEFICIARY>
-      <Type>Client</Type>
-      <Name>OOH Vision Ltd</Name>
-      <TradeName />
-      <FiscalStart />
-      <FiscalEnd />
+    <Type>In-house</Type>
+    <SubjectMatter>Planning and Development, Combined Application</SubjectMatter>
+    <Particulars>327 Royal York Road - meeting requests &amp; existing approvals</Particulars>
+    <InitialApprovalDate>2017-10-10</InitialApprovalDate>
+    <EffectiveDate>2017-12-08</EffectiveDate>
+    <ProposedStartDate>2017-10-06</ProposedStartDate>
+    <ProposedEndDate>2018-07-31</ProposedEndDate>
+    <Registrant>
+      <RegistrationNUmber>32589S</RegistrationNUmber>
+      <RegistrationNUmberWithSoNum>32589S-1</RegistrationNUmberWithSoNum>
+      <Status>Active</Status>
+      <EffectiveDate>2017-09-13</EffectiveDate>
+      <Type>In-house</Type>
+      <Prefix>Mr.</Prefix>
+      <FirstName>Sherman</FirstName>
+      <MiddleInitials />
+      <LastName>Chan</LastName>
+      <Suffix />
+      <PositionTitle>Vice President, Acquisitions &amp; Development</PositionTitle>
+      <PreviousPublicOfficeHolder>no</PreviousPublicOfficeHolder>
+      <PreviousPublicOfficeHoldPosition />
+      <PreviousPublicOfficePositionProgramName />
+      <PreviousPublicOfficeHoldLastDate />
       <BusinessAddress>
-        <AddressLine1>66 Annette St</AddressLine1>
+        <AddressLine1>1944 Fowler Drive</AddressLine1>
         <AddressLine2 />
-        <City>Toronto</City>
+        <City>Mississauga</City>
         <Province>Ontario</Province>
         <Country>Canada</Country>
-        <PostalCode>M6P 1N4</PostalCode>
+        <PostalCode>L5K 0A1</PostalCode>
+        <Phone>905-823-4606</Phone>
       </BusinessAddress>
-    </BENEFICIARY>
-    <BENEFICIARY>
-      <Type>Subsidiary company</Type>
-      <Name>Admas Capital Corp</Name>
-      <TradeName />
-      <FiscalStart />
-      <FiscalEnd />
-      <BusinessAddress>
-        <AddressLine1>66 Annette St</AddressLine1>
-        <AddressLine2 />
-        <City>Toronto</City>
-        <Province>Ontario</Province>
-        <Country>Canada</Country>
-        <PostalCode>M6P 1N4</PostalCode>
-      </BusinessAddress>
-    </BENEFICIARY>
-  </Beneficiaries>
-  <Firms>
-    <Firm>
-      <Type>Consultant</Type>
-      <Name>The Advantage Group</Name>
-      <TradeName />
-      <FiscalStart />
-      <FiscalEnd />
-      <Description />
-      <BusinessType />
-      <BusinessAddress>
-        <AddressLine1>650 Woodbine Ave</AddressLine1>
-        <AddressLine2>Suite 7</AddressLine2>
-        <City>Toronto</City>
-        <Province>Ontario</Province>
-        <Country>Canada</Country>
-        <PostalCode>M4E 2J1</PostalCode>
-      </BusinessAddress>
-    </Firm>
-  </Firms>
-</ROW>
+    </Registrant>
+    <Communications>
+      <Communication>
+        <POH_Office>Ward 6 Etobicoke-Lakeshore</POH_Office>
+        <POH_Type>Member of Council</POH_Type>
+        <POH_Position>Councillor</POH_Position>
+        <POH_Name>Mark Grimes</POH_Name>
+        <CommunicationMethod>Meeting</CommunicationMethod>
+        <CommunicationDate>2017-11-06</CommunicationDate>
+        <CommunicationGroupId>70390</CommunicationGroupId>
+        <LobbyistNumber>32591H</LobbyistNumber>
+        <LobbyistType>In-House Lobbyist</LobbyistType>
+        <LobbyistPrefix>Ms.</LobbyistPrefix>
+        <LobbyistFirstName>Lara</LobbyistFirstName>
+        <LobbyistMiddleInitials />
+        <LobbyistLastName>Dekranian</LobbyistLastName>
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle>Development Planner</LobbyistPositionTitle>
+        <PreviousPublicOfficeHolder>no</PreviousPublicOfficeHolder>
+        <PreviousPublicOfficeHoldPosition>.</PreviousPublicOfficeHoldPosition>
+        <PreviousPublicOfficePositionProgramName>.</PreviousPublicOfficePositionProgramName>
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1>1944 Fowler Drive</AddressLine1>
+          <AddressLine2 />
+          <City>Mississauga</City>
+          <Province>Ontario</Province>
+          <Country>Canada</Country>
+          <PostalCode>L5K 0A1</PostalCode>
+          <Phone>905-823-4606</Phone>
+        </LobbyistBusinessAddress>
+      </Communication>
+      <Communication>
+        <POH_Office>Ward 6 Etobicoke-Lakeshore</POH_Office>
+        <POH_Type>Member of Council</POH_Type>
+        <POH_Position>Councillor</POH_Position>
+        <POH_Name>Mark Grimes</POH_Name>
+        <CommunicationMethod>Meeting</CommunicationMethod>
+        <CommunicationDate>2017-11-06</CommunicationDate>
+        <CommunicationGroupId>70389</CommunicationGroupId>
+        <LobbyistNumber>32589S-1</LobbyistNumber>
+        <LobbyistType>Sr. Officer</LobbyistType>
+        <LobbyistPrefix>Mr.</LobbyistPrefix>
+        <LobbyistFirstName>Sherman</LobbyistFirstName>
+        <LobbyistMiddleInitials />
+        <LobbyistLastName>Chan</LobbyistLastName>
+        <LobbyistSuffix />
+        <LobbyistBusiness />
+        <LobbyistPositionTitle>Vice President, Acquisitions &amp; Development</LobbyistPositionTitle>
+        <PreviousPublicOfficeHolder>no</PreviousPublicOfficeHolder>
+        <PreviousPublicOfficeHoldPosition />
+        <PreviousPublicOfficePositionProgramName />
+        <PreviousPublicOfficeHoldLastDate />
+        <LobbyistBusinessAddress>
+          <AddressLine1>1944 Fowler Drive</AddressLine1>
+          <AddressLine2 />
+          <City>Mississauga</City>
+          <Province>Ontario</Province>
+          <Country>Canada</Country>
+          <PostalCode>L5K 0A1</PostalCode>
+          <Phone>905-823-4606</Phone>
+        </LobbyistBusinessAddress>
+      </Communication>
+    </Communications>
+    <Firms>
+      <Firm>
+        <Type>In-house</Type>
+        <Name>VANDYK Group of Companies</Name>
+        <TradeName />
+        <FiscalStart>2017-08-01</FiscalStart>
+        <FiscalEnd>2018-07-31</FiscalEnd>
+        <Description>A multi-disciplined integrated real estate development corporation specialising in real estate investments, new home and mixed-use communities, condominium developments, commercial construction management and retail developments.</Description>
+        <BusinessType>Corporation</BusinessType>
+        <BusinessAddress>
+          <AddressLine1>1944 Fowler Drive</AddressLine1>
+          <AddressLine2 />
+          <City>Mississauga</City>
+          <Province>Ontario</Province>
+          <Country>Canada</Country>
+          <PostalCode>L5K 0A1</PostalCode>
+        </BusinessAddress>
+      </Firm>
+    </Firms>
+  </ROW>
 </ROWSET>
