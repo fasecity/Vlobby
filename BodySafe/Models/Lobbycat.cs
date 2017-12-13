@@ -144,7 +144,7 @@ namespace ViewModels.LobbyCat
         public int Id { get; set; }
 
         [XmlElement(ElementName = "Firm")]
-        public List<Firm> Firm { get; set; }
+        public virtual  List<Firm> Firm { get; set; }
     }
 
     [XmlRoot(ElementName = "ROW")]
@@ -172,11 +172,11 @@ namespace ViewModels.LobbyCat
         [XmlElement(ElementName = "ProposedEndDate")]
         public string ProposedEndDate { get; set; }
         [XmlElement(ElementName = "Registrant")]
-        public Registrant Registrant { get; set; }
+        public virtual Registrant Registrant { get; set; }
         [XmlElement(ElementName = "Beneficiaries")]
-        public Beneficiaries Beneficiaries { get; set; }
+        public virtual Beneficiaries Beneficiaries { get; set; }
         [XmlElement(ElementName = "Firms")]
-        public Firms Firms { get; set; }
+        public virtual Firms Firms { get; set; }
     }
 
     [XmlRoot(ElementName = "ROWSET")]

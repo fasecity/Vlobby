@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using BodySafe;
 
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ViewModels.LobbyCat;
 
 namespace BodySafe.Controllers
@@ -12,28 +13,62 @@ namespace BodySafe.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
-        //public static void Ret()
-        //{
-        // var data =  LobbyFactory.Deserialize();
+        private readonly ApiContext ctx = LobbyFactory.db;
+        public class Holder
+        {
 
-        //}
+            public string FirmName { get; set; }
+            public string Subject { get; set; }
+            public string Particular { get; set; }
+            public string Benifitor { get; set; }
 
-        // GET api/ROWSET
-        //[HttpGet]
-        //public ROWSET Get()
-        //{
-        // var lobbyFeed= LobbyFactory.Deserialize();
-        //    return lobbyFeed;
-        //}
 
-        // GET api/values
+
+        }
+
+
 
         [HttpGet]
-        public string[] Get()
+        public IActionResult Get()
         {
-          var x =  LobbyFactory.Deserialize();
-            var lobbyFeed = new[] { "Its okay" };
-            return lobbyFeed;
+            //old saves
+            // var x =  LobbyFactory.Deserialize();
+
+           
+
+            List<Holder> hList = new List<Holder>();
+
+            //eagar loading
+            var c = ctx.LobbyActivity.Include(x => x.Firms.Firm).Include(x => x.Beneficiaries.BENEFICIARY)
+                .Where(x => x.Id == x.Firms.Id && x.Id == x.Beneficiaries.Id);
+            //  var d = ctx.LobbyActivity.Select(x => new { x.Beneficiaries.BENEFICIARY., x.ServedInObiOne, x.EquipmentOwned }).ToList();
+
+            Holder h1 = null;
+            foreach (var item in c)
+            {
+                h1 = new Holder();
+                var lld = item.Firms.Firm;
+
+
+                h1.Particular = item.Particulars;
+                h1.Subject = item.SubjectMatter;
+                foreach (var item2 in lld)
+                    if (item2.Name != null)
+
+                        h1.FirmName = item2.Name;
+
+                foreach (var item3 in item.Beneficiaries.BENEFICIARY)
+
+                    if (item3.Name != null)
+                        h1.Benifitor = item3.Name;
+
+
+
+                hList.Add(h1);
+
+            }
+
+            return Ok(hList.ToList());
         }
 
         // GET api/values/5

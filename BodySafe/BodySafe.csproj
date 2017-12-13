@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20171213075921_virt.cs" />
+    <Compile Remove="Migrations\20171213075921_virt.Designer.cs" />
+    <Compile Remove="Migrations\20171213080312_ACvi.cs" />
+    <Compile Remove="Migrations\20171213080312_ACvi.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
