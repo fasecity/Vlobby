@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using BodySafe;
-
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ViewModels.LobbyCat;
+using CommsModel;
 
 namespace BodySafe.Controllers
 {
@@ -14,61 +10,18 @@ namespace BodySafe.Controllers
     public class ValuesController : Controller
     {
         private readonly ApiContext ctx = LobbyFactory.db;
-        public class Holder
-        {
-
-            public string FirmName { get; set; }
-            public string Subject { get; set; }
-            public string Particular { get; set; }
-            public string Benifitor { get; set; }
-
-
-
-        }
-
 
 
         [HttpGet]
         public IActionResult Get()
         {
-            //old saves
-            // var x =  LobbyFactory.Deserialize();
+            //calls save  comment out untill saving
+            //SaveBatchXml(); /-- dont call unless saving
 
-           
+            var listHolder = QueryAllList();
+            var lobbList = listHolder;
 
-            List<Holder> hList = new List<Holder>();
-
-            //eagar loading
-            var c = ctx.LobbyActivity.Include(x => x.Firms.Firm).Include(x => x.Beneficiaries.BENEFICIARY)
-                .Where(x => x.Id == x.Firms.Id && x.Id == x.Beneficiaries.Id);
-            //  var d = ctx.LobbyActivity.Select(x => new { x.Beneficiaries.BENEFICIARY., x.ServedInObiOne, x.EquipmentOwned }).ToList();
-
-            Holder h1 = null;
-            foreach (var item in c)
-            {
-                h1 = new Holder();
-                var lld = item.Firms.Firm;
-
-
-                h1.Particular = item.Particulars;
-                h1.Subject = item.SubjectMatter;
-                foreach (var item2 in lld)
-                    if (item2.Name != null)
-
-                        h1.FirmName = item2.Name;
-
-                foreach (var item3 in item.Beneficiaries.BENEFICIARY)
-
-                    if (item3.Name != null)
-                        h1.Benifitor = item3.Name;
-
-
-
-                hList.Add(h1);
-
-            }
-
-            return Ok(hList.ToList());
+            return Ok(lobbList);
         }
 
         // GET api/values/5
@@ -96,5 +49,25 @@ namespace BodySafe.Controllers
         public void Delete(int id)
         {
         }
+
+
+        //-------------------------private Methods-----------------------------------
+        private void SaveBatchXml()
+        {
+            //-- batch saves xml
+            var x = XMLCommLobb.Deserialize();
+        }
+
+        private List<COMMSLOBBROW> QueryAllList()
+        {
+            var c = ctx.CommsLobbActivity.Include(x => x.Firms).ThenInclude(firms => firms.Firm)
+            .Include(x => x.Beneficiaries).ThenInclude(b => b.BENEFICIARY)
+            .Include(x => x.Registrant)
+            .Include(x => x.Communications)
+            .ThenInclude(com => com.Communication);
+            var d = c.ToList();
+            return d;
+        } 
     }
+
 }

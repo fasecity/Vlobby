@@ -1,9 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ViewModels.LobbyCat;
+﻿using CommsModel;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace BodySafe
 {
@@ -19,11 +16,9 @@ namespace BodySafe
 
         }
 
-        public DbSet<ROW> LobbyActivity { get; set; }
-      //  public DbSet<User> Users { get; set; }//---needs migration
-      //  public DbSet<Staff> Staffs { get; set; }//--> staff subsystem Hackathon Model
-
-
+        //public DbSet<ROW> LobbyActivity { get; set; }//--old schema
+        public DbSet<COMMSLOBBROW> CommsLobbActivity { get; set; }// comms model
+    
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
